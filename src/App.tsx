@@ -1,13 +1,5 @@
-type Props = {
-  text: string
-}
+import { Widget } from "./components/Widget"
 
-function Button({ text }: Props) {
-  return <button>{text}</button>
+export function App() {
+  return <Widget />
 }
-
-function App() {
-  return <Button text='hello world' />
-}
-
-export default App
